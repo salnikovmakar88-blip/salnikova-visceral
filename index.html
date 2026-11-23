@@ -1,0 +1,2624 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ольга Сальникова — Висцеральная терапия, нейросоматика и психосоматика | Владимир</title>
+  <meta name="description" content="Ольга Сальникова — висцеральный практик (школа А.Т. Огулова), психолог-консультант по психосоматике, нутрициолог, гирудотерапевт во Владимире. Запись: @salon76" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-white: #FFFFFF;
+      --bg-offwhite: #F7F7F5;
+      --bg-stone: #EFEFEA;
+      --bg-glass: rgba(255, 255, 255, 0.88);
+      --ink: #141413;
+      --ink-secondary: #5C5C58;
+      --ink-muted: #8E8E88;
+      --accent-dark: #1A1A18;
+      --accent-olive: #3A4D39;
+      --accent-gold: #B68D40;
+      --border: rgba(20, 20, 19, 0.1);
+      --border-strong: rgba(20, 20, 19, 0.22);
+      --shadow-sm: 0 4px 20px rgba(0, 0, 0, 0.04);
+      --shadow-md: 0 16px 40px rgba(0, 0, 0, 0.07);
+      --shadow-lg: 0 28px 64px rgba(0, 0, 0, 0.12);
+      --radius-xl: 24px;
+      --radius-lg: 18px;
+      --radius-md: 12px;
+      --radius-pill: 999px;
+      --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-serif: 'Playfair Display', Georgia, serif;
+      --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      background-color: var(--bg-white);
+      color: var(--ink);
+      font-family: var(--font-sans);
+      font-size: 16px;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      background-color: var(--bg-white);
+      overflow-x: hidden;
+      padding-bottom: 84px; /* место под фиксированную нижнюю плашку */
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button {
+      font-family: inherit;
+      cursor: pointer;
+    }
+
+    .container {
+      max-width: 1340px;
+      margin: 0 auto;
+      padding: 0 32px;
+    }
+
+    /* ==================== HEADER (Goose Agency White Edition) ==================== */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 90;
+      background: var(--bg-glass);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+      transition: box-shadow 0.3s ease;
+    }
+
+    .site-header.scrolled {
+      box-shadow: var(--shadow-sm);
+    }
+
+    .header-inner {
+      height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .logo-wrap {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 600;
+      font-size: 15px;
+      letter-spacing: -0.01em;
+    }
+
+    .logo-badge {
+      width: 34px;
+      height: 34px;
+      border-radius: 10px;
+      background: var(--ink);
+      color: #FFFFFF;
+      display: grid;
+      place-items: center;
+      font-family: var(--font-serif);
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .logo-sub {
+      color: var(--ink-muted);
+      font-weight: 400;
+      font-size: 13px;
+      padding-left: 12px;
+      border-left: 1px solid var(--border);
+    }
+
+    .main-nav {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--ink-secondary);
+    }
+
+    .main-nav a {
+      position: relative;
+      padding: 6px 0;
+      transition: color 0.2s;
+    }
+
+    .main-nav a:hover {
+      color: var(--ink);
+    }
+
+    .main-nav a::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 1.5px;
+      background: var(--ink);
+      transition: width 0.25s var(--ease-out);
+    }
+
+    .main-nav a:hover::after {
+      width: 100%;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .tg-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 16px;
+      border-radius: var(--radius-pill);
+      background: var(--bg-offwhite);
+      border: 1px solid var(--border);
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--ink);
+      transition: all 0.2s;
+    }
+
+    .tg-chip:hover {
+      border-color: var(--ink);
+      background: #FFFFFF;
+    }
+
+    .tg-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #22C55E;
+      box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.2);
+    }
+
+    .btn-header {
+      padding: 10px 20px;
+      border-radius: var(--radius-pill);
+      background: var(--ink);
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 500;
+      border: 1px solid var(--ink);
+      transition: all 0.25s var(--ease-out);
+    }
+
+    .btn-header:hover {
+      background: #2C2C2A;
+      transform: translateY(-1px);
+    }
+
+    /* ==================== HERO SECTION (Goose Agency Kinetic Layout) ==================== */
+    .hero-section {
+      position: relative;
+      padding: 56px 0 88px;
+      background: radial-gradient(circle at 82% 22%, #F3F2EE 0%, #FFFFFF 55%);
+      border-bottom: 1px solid var(--border);
+      overflow: hidden;
+    }
+
+    .hero-top-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 36px;
+    }
+
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 16px;
+      background: var(--bg-offwhite);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-pill);
+      font-size: 13px;
+      color: var(--ink-secondary);
+    }
+
+    .status-pill strong {
+      color: var(--ink);
+      font-weight: 600;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.18fr 0.82fr;
+      gap: 48px;
+      align-items: center;
+    }
+
+    .hero-title {
+      font-size: clamp(44px, 5.6vw, 82px);
+      font-weight: 600;
+      line-height: 0.98;
+      letter-spacing: -0.035em;
+      color: var(--ink);
+      margin-bottom: 28px;
+    }
+
+    .hero-title .line {
+      display: block;
+    }
+
+    .hero-title .serif-italic {
+      font-family: var(--font-serif);
+      font-weight: 500;
+      font-style: italic;
+      color: var(--accent-olive);
+    }
+
+    .hero-desc {
+      font-size: 19px;
+      line-height: 1.55;
+      color: var(--ink-secondary);
+      max-width: 580px;
+      margin-bottom: 36px;
+    }
+
+    .hero-cta-row {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 48px;
+    }
+
+    .btn-primary-lg {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      padding: 18px 34px;
+      background: var(--ink);
+      color: #FFFFFF;
+      border-radius: var(--radius-pill);
+      font-size: 16px;
+      font-weight: 500;
+      border: none;
+      transition: all 0.25s var(--ease-out);
+      box-shadow: 0 10px 24px rgba(20, 20, 19, 0.14);
+    }
+
+    .btn-primary-lg:hover {
+      background: #2B2B28;
+      transform: translateY(-2px);
+      box-shadow: 0 16px 32px rgba(20, 20, 19, 0.2);
+    }
+
+    .btn-secondary-lg {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 18px 28px;
+      background: var(--bg-offwhite);
+      color: var(--ink);
+      border: 1px solid var(--border-strong);
+      border-radius: var(--radius-pill);
+      font-size: 15px;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+
+    .btn-secondary-lg:hover {
+      background: #FFFFFF;
+      border-color: var(--ink);
+    }
+
+    /* Мини-превью кейсов/методов прямо на первом экране (как у Goose Agency) */
+    .hero-mini-cases {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      padding-top: 28px;
+      border-top: 1px solid var(--border);
+    }
+
+    .mini-thumbs {
+      display: flex;
+      align-items: center;
+    }
+
+    .mini-thumb {
+      width: 64px;
+      height: 44px;
+      border-radius: 10px;
+      border: 2px solid #FFFFFF;
+      background: var(--bg-offwhite);
+      box-shadow: var(--shadow-sm);
+      display: grid;
+      place-items: center;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--ink);
+      margin-left: -10px;
+      transition: transform 0.25s var(--ease-out);
+    }
+
+    .mini-thumb:first-child {
+      margin-left: 0;
+      background: #EAECE6;
+    }
+
+    .mini-thumb:nth-child(2) {
+      background: #F4EFE6;
+    }
+
+    .mini-thumb:nth-child(3) {
+      background: #E8ECEF;
+    }
+
+    .mini-thumb:hover {
+      transform: translateY(-4px) scale(1.06);
+      z-index: 2;
+    }
+
+    .mini-cases-caption {
+      font-size: 14px;
+      color: var(--ink-secondary);
+    }
+
+    .mini-cases-caption strong {
+      color: var(--ink);
+      display: block;
+    }
+
+    /* Правая интерактивная сцена с портретом и Фазаном (вместо гуся!) */
+    .hero-stage {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 540px;
+    }
+
+    .stage-card {
+      position: relative;
+      width: 100%;
+      max-width: 440px;
+      background: var(--bg-offwhite);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-xl);
+      padding: 18px;
+      box-shadow: var(--shadow-lg);
+      transition: transform 0.35s var(--ease-out);
+    }
+
+    .stage-portrait-wrap {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 4 / 5;
+      border-radius: 16px;
+      overflow: hidden;
+      background: #E5E4DF;
+    }
+
+    .stage-portrait-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+      display: block;
+    }
+
+    .stage-caption-bar {
+      margin-top: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 6px 8px;
+    }
+
+    .stage-caption-bar .name {
+      font-weight: 600;
+      font-size: 16px;
+      color: var(--ink);
+    }
+
+    .stage-caption-bar .role {
+      font-size: 13px;
+      color: var(--ink-secondary);
+    }
+
+    /* Интерактивный маскот-фазан (замена гуся с Goose Agency) */
+    .pheasant-mascot {
+      position: absolute;
+      top: -28px;
+      right: -24px;
+      width: 148px;
+      height: 148px;
+      background: #FFFFFF;
+      border: 1px solid var(--border);
+      border-radius: 50%;
+      box-shadow: var(--shadow-md);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 5;
+      cursor: pointer;
+      user-select: none;
+      transition: transform 0.3s var(--ease-out), box-shadow 0.3s;
+    }
+
+    .pheasant-mascot:hover {
+      transform: scale(1.07) rotate(-4deg);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .pheasant-tooltip {
+      position: absolute;
+      top: -38px;
+      right: 10px;
+      background: var(--ink);
+      color: #FFFFFF;
+      font-size: 12px;
+      font-weight: 500;
+      padding: 6px 12px;
+      border-radius: var(--radius-pill);
+      white-space: nowrap;
+      box-shadow: var(--shadow-sm);
+      pointer-events: none;
+      transition: opacity 0.2s, transform 0.2s;
+    }
+
+    .floating-trust-card {
+      position: absolute;
+      bottom: 42px;
+      left: -34px;
+      background: #FFFFFF;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 16px 20px;
+      max-width: 240px;
+      box-shadow: var(--shadow-md);
+      z-index: 4;
+    }
+
+    .floating-trust-card .eyebrow {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent-olive);
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .floating-trust-card p {
+      font-size: 13px;
+      line-height: 1.4;
+      color: var(--ink);
+      font-weight: 500;
+    }
+
+    /* ==================== ОБЩИЕ СТИЛИ СЕКЦИЙ ==================== */
+    section.block-section {
+      padding: 104px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: end;
+      margin-bottom: 60px;
+    }
+
+    .section-kicker {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--ink-muted);
+      margin-bottom: 14px;
+    }
+
+    .section-title {
+      font-size: clamp(34px, 4.2vw, 56px);
+      font-weight: 600;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+      color: var(--ink);
+    }
+
+    .section-subtitle {
+      font-size: 17px;
+      color: var(--ink-secondary);
+      max-width: 500px;
+      line-height: 1.6;
+    }
+
+    /* ==================== СЕКЦИЯ 2: НАПРАВЛЕНИЯ И МЕТОДЫ (аналог «Работы» у Goose Agency) ==================== */
+    .works-stack {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 24px;
+    }
+
+    .work-card {
+      background: var(--bg-offwhite);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-xl);
+      padding: 36px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.3s var(--ease-out), background 0.3s, box-shadow 0.3s;
+    }
+
+    .work-card:hover {
+      background: #FFFFFF;
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .work-card.span-12 {
+      grid-column: span 12;
+      display: grid;
+      grid-template-columns: 1.25fr 0.75fr;
+      gap: 36px;
+      align-items: center;
+      background: #FFFFFF;
+      border: 1.5px solid var(--ink);
+    }
+
+    .work-card.span-6 {
+      grid-column: span 6;
+    }
+
+    .work-card.span-4 {
+      grid-column: span 4;
+    }
+
+    .work-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 22px;
+    }
+
+    .work-index {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--ink-muted);
+    }
+
+    .work-badge {
+      font-size: 12px;
+      font-weight: 500;
+      padding: 5px 12px;
+      border-radius: var(--radius-pill);
+      background: #FFFFFF;
+      border: 1px solid var(--border);
+      color: var(--ink);
+    }
+
+    .work-card.span-12 .work-badge {
+      background: var(--ink);
+      color: #FFFFFF;
+      border-color: var(--ink);
+    }
+
+    .work-card h3 {
+      font-size: 26px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      margin-bottom: 12px;
+      line-height: 1.2;
+    }
+
+    .work-card p {
+      font-size: 15px;
+      color: var(--ink-secondary);
+      margin-bottom: 24px;
+      line-height: 1.6;
+    }
+
+    .work-bullets {
+      list-style: none;
+      border-top: 1px solid var(--border);
+      padding-top: 18px;
+      display: grid;
+      gap: 9px;
+      font-size: 14px;
+      color: var(--ink);
+    }
+
+    .work-bullets li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .work-bullets li::before {
+      content: "→";
+      color: var(--accent-olive);
+      font-weight: 600;
+    }
+
+    .work-card-actions {
+      margin-top: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .btn-card-detail {
+      background: none;
+      border: none;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--ink);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 0;
+      border-bottom: 1px solid var(--ink);
+      padding-bottom: 2px;
+    }
+
+    .featured-panel {
+      background: var(--bg-offwhite);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px;
+    }
+
+    .featured-panel .tag {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent-olive);
+      font-weight: 600;
+    }
+
+    .featured-panel .big-price {
+      font-size: 46px;
+      font-weight: 600;
+      letter-spacing: -0.03em;
+      margin: 8px 0 4px;
+      color: var(--ink);
+    }
+
+    .featured-panel .duration {
+      font-size: 14px;
+      color: var(--ink-secondary);
+      margin-bottom: 22px;
+      display: block;
+    }
+
+    /* ==================== СЕКЦИЯ 3: ИНТЕРАКТИВНОЕ СРАВНЕНИЕ «ДО / ПОСЛЕ» (как у Goose Agency) ==================== */
+    .compare-section {
+      background: var(--bg-offwhite);
+    }
+
+    .compare-wrapper {
+      background: #FFFFFF;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-xl);
+      padding: 40px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .compare-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+      align-items: stretch;
+    }
+
+    .state-box {
+      border-radius: var(--radius-lg);
+      padding: 32px;
+      border: 1px solid var(--border);
+    }
+
+    .state-box.before {
+      background: #FAFAFA;
+    }
+
+    .state-box.after {
+      background: #F4F7F3;
+      border-color: rgba(58, 77, 57, 0.25);
+    }
+
+    .state-label {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 5px 12px;
+      border-radius: var(--radius-pill);
+      margin-bottom: 18px;
+    }
+
+    .state-box.before .state-label {
+      background: #EAEAE6;
+      color: var(--ink-secondary);
+    }
+
+    .state-box.after .state-label {
+      background: var(--accent-olive);
+      color: #FFFFFF;
+    }
+
+    .state-box h3 {
+      font-size: 24px;
+      margin-bottom: 16px;
+      letter-spacing: -0.02em;
+    }
+
+    .state-list {
+      list-style: none;
+      display: grid;
+      gap: 12px;
+      font-size: 15px;
+      color: var(--ink-secondary);
+    }
+
+    .state-box.after .state-list {
+      color: var(--ink);
+    }
+
+    .state-list li {
+      padding-left: 22px;
+      position: relative;
+    }
+
+    .state-box.before .state-list li::before {
+      content: "×";
+      position: absolute;
+      left: 0;
+      color: #999993;
+      font-weight: 700;
+    }
+
+    .state-box.after .state-list li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: var(--accent-olive);
+      font-weight: 700;
+    }
+
+    /* ==================== СЕКЦИЯ 4: УСЛУГИ И ПОЛНЫЙ ПРАЙС-ЛИСТ (табы + конструктор) ==================== */
+    .services-layout {
+      display: grid;
+      grid-template-columns: 340px 1fr;
+      gap: 44px;
+      align-items: start;
+    }
+
+    .service-tabs {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      position: sticky;
+      top: 98px;
+    }
+
+    .service-tab-btn {
+      width: 100%;
+      text-align: left;
+      padding: 18px 22px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      background: var(--bg-offwhite);
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--ink-secondary);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: all 0.2s;
+    }
+
+    .service-tab-btn:hover {
+      background: #FFFFFF;
+      color: var(--ink);
+    }
+
+    .service-tab-btn.active {
+      background: var(--ink);
+      color: #FFFFFF;
+      border-color: var(--ink);
+    }
+
+    .pheasant-aside-card {
+      margin-top: 16px;
+      padding: 24px;
+      border-radius: 18px;
+      background: var(--bg-offwhite);
+      border: 1px solid var(--border);
+      text-align: center;
+    }
+
+    .pheasant-aside-card p {
+      font-size: 13px;
+      color: var(--ink-secondary);
+      margin-top: 10px;
+    }
+
+    .service-panel {
+      display: none;
+      background: #FFFFFF;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-xl);
+      padding: 36px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .service-panel.active {
+      display: block;
+      animation: panelReveal 0.3s var(--ease-out);
+    }
+
+    @keyframes panelReveal {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .price-item {
+      display: grid;
+      grid-template-columns: 1fr auto auto auto;
+      gap: 20px;
+      align-items: center;
+      padding: 22px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .price-item:last-child {
+      border-bottom: none;
+    }
+
+    .price-item-title {
+      font-size: 17px;
+      font-weight: 600;
+      color: var(--ink);
+    }
+
+    .price-item-note {
+      font-size: 13px;
+      color: var(--ink-secondary);
+      margin-top: 4px;
+    }
+
+    .price-item-time {
+      font-size: 14px;
+      color: var(--ink-muted);
+      background: var(--bg-offwhite);
+      padding: 5px 12px;
+      border-radius: var(--radius-pill);
+      white-space: nowrap;
+    }
+
+    .price-item-cost {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--ink);
+      white-space: nowrap;
+      min-width: 95px;
+      text-align: right;
+    }
+
+    .btn-pick-service {
+      padding: 9px 16px;
+      border-radius: var(--radius-pill);
+      border: 1px solid var(--border-strong);
+      background: #FFFFFF;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--ink);
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+
+    .btn-pick-service:hover {
+      background: var(--ink);
+      color: #FFFFFF;
+      border-color: var(--ink);
+    }
+
+    /* ==================== СЕКЦИЯ 5: ПРОЦЕСС ПРИЁМА (4 этапа как «От идеи до запуска») ==================== */
+    .process-layout {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 48px;
+      align-items: start;
+    }
+
+    .steps-list {
+      list-style: none;
+      display: grid;
+      gap: 16px;
+    }
+
+    .step-row {
+      padding: 28px 32px;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border);
+      background: var(--bg-offwhite);
+      cursor: pointer;
+      transition: all 0.25s var(--ease-out);
+    }
+
+    .step-row.active,
+    .step-row:hover {
+      background: #FFFFFF;
+      border-color: var(--ink);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .step-row-head {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 10px;
+    }
+
+    .step-num-badge {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: var(--ink);
+      color: #FFFFFF;
+      font-size: 13px;
+      font-weight: 600;
+      display: grid;
+      place-items: center;
+    }
+
+    .step-row h3 {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .step-row p {
+      font-size: 15px;
+      color: var(--ink-secondary);
+      margin-bottom: 12px;
+    }
+
+    .step-out {
+      font-size: 13px;
+      color: var(--ink);
+    }
+
+    .step-out strong {
+      color: var(--accent-olive);
+    }
+
+    /* Интерактивный экран-демонстрация справа (как превью телефона у Goose Agency) */
+    .process-preview-card {
+      position: sticky;
+      top: 98px;
+      background: var(--bg-offwhite);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-xl);
+      padding: 36px;
+      box-shadow: var(--shadow-md);
+    }
+
+    .preview-screen {
+      background: #FFFFFF;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 28px;
+    }
+
+    .preview-screen-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      color: var(--ink-muted);
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 20px;
+    }
+
+    .preview-screen h4 {
+      font-size: 22px;
+      margin-bottom: 12px;
+      letter-spacing: -0.02em;
+    }
+
+    .preview-screen p {
+      font-size: 15px;
+      color: var(--ink-secondary);
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    .preview-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .preview-tags span {
+      font-size: 12px;
+      padding: 6px 12px;
+      border-radius: var(--radius-pill);
+      background: var(--bg-offwhite);
+      border: 1px solid var(--border);
+    }
+
+    /* ==================== СЕКЦИЯ 6: ОБРАЗОВАНИЕ И ДИПЛОМЫ ==================== */
+    .credentials-box {
+      background: var(--bg-offwhite);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-xl);
+      padding: 48px;
+      display: grid;
+      grid-template-columns: 0.95fr 1.05fr;
+      gap: 44px;
+      align-items: center;
+    }
+
+    .cred-cards {
+      display: grid;
+      gap: 14px;
+    }
+
+    .cred-item {
+      background: #FFFFFF;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px 22px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .cred-item strong {
+      font-size: 15px;
+      display: block;
+      color: var(--ink);
+    }
+
+    .cred-item span {
+      font-size: 13px;
+      color: var(--ink-secondary);
+    }
+
+    .cred-pill {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      padding: 5px 11px;
+      border-radius: var(--radius-pill);
+      background: #F4F7F3;
+      color: var(--accent-olive);
+      border: 1px solid rgba(58, 77, 57, 0.2);
+      white-space: nowrap;
+    }
+
+    /* ==================== СЕКЦИЯ 7: ВОПРОСЫ И РАЗБОРЫ (FAQ Accordion) ==================== */
+    .faq-grid {
+      display: grid;
+      grid-template-columns: 0.75fr 1.25fr;
+      gap: 48px;
+      align-items: start;
+    }
+
+    .faq-list {
+      list-style: none;
+      border-top: 1px solid var(--border);
+    }
+
+    .faq-item {
+      border-bottom: 1px solid var(--border);
+    }
+
+    .faq-btn {
+      width: 100%;
+      background: none;
+      border: none;
+      text-align: left;
+      padding: 24px 0;
+      font-size: 19px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      color: var(--ink);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .faq-plus {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      display: grid;
+      place-items: center;
+      font-size: 18px;
+      font-weight: 400;
+      flex-shrink: 0;
+      transition: transform 0.25s, background 0.25s, color 0.25s;
+    }
+
+    .faq-item.open .faq-plus {
+      transform: rotate(45deg);
+      background: var(--ink);
+      color: #FFFFFF;
+      border-color: var(--ink);
+    }
+
+    .faq-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.35s var(--ease-out);
+    }
+
+    .faq-body-inner {
+      padding-bottom: 24px;
+      font-size: 15px;
+      line-height: 1.65;
+      color: var(--ink-secondary);
+    }
+
+    /* ==================== СЕКЦИЯ 8: ЗАПИСЬ НА ПРИЁМ (@saln76) ==================== */
+    .contact-section {
+      background: #FFFFFF;
+      padding: 104px 0;
+    }
+
+    .contact-card {
+      background: var(--bg-offwhite);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      padding: 56px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 56px;
+      align-items: center;
+    }
+
+    .topic-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 24px 0 32px;
+    }
+
+    .topic-chip {
+      padding: 10px 18px;
+      border-radius: var(--radius-pill);
+      border: 1px solid var(--border-strong);
+      background: #FFFFFF;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--ink);
+      transition: all 0.2s;
+    }
+
+    .topic-chip.active,
+    .topic-chip:hover {
+      background: var(--ink);
+      color: #FFFFFF;
+      border-color: var(--ink);
+    }
+
+    .direct-tg-box {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 22px;
+      border-radius: 16px;
+      background: #FFFFFF;
+      border: 1px solid var(--border);
+      font-size: 14px;
+    }
+
+    .booking-box {
+      background: #FFFFFF;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-xl);
+      padding: 36px;
+      box-shadow: var(--shadow-md);
+      display: grid;
+      gap: 16px;
+    }
+
+    .field label {
+      display: block;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--ink-secondary);
+      margin-bottom: 6px;
+    }
+
+    .field input,
+    .field textarea {
+      width: 100%;
+      padding: 14px 16px;
+      border-radius: 12px;
+      border: 1px solid var(--border-strong);
+      background: #FFFFFF;
+      font-family: inherit;
+      font-size: 15px;
+      color: var(--ink);
+      transition: border-color 0.2s;
+    }
+
+    .field input:focus,
+    .field textarea:focus {
+      outline: none;
+      border-color: var(--ink);
+    }
+
+    /* ==================== АКТИВНАЯ НИЖНЯЯ ПЛАШКА ЗАПИСИ ==================== */
+    .sticky-booking-bar {
+      position: fixed;
+      bottom: 16px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: calc(100% - 32px);
+      max-width: 920px;
+      z-index: 95;
+      background: rgba(20, 20, 19, 0.94);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      color: #FFFFFF;
+      border-radius: var(--radius-pill);
+      padding: 10px 12px 10px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      box-shadow: 0 20px 44px rgba(0, 0, 0, 0.25);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+    }
+
+    .sticky-bar-info {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      min-width: 0;
+    }
+
+    .sticky-bar-text {
+      font-size: 14px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .sticky-bar-text span {
+      color: rgba(255, 255, 255, 0.65);
+    }
+
+    .sticky-bar-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+
+    .btn-sticky-tg {
+      padding: 10px 18px;
+      border-radius: var(--radius-pill);
+      background: rgba(255, 255, 255, 0.12);
+      color: #FFFFFF;
+      font-size: 13px;
+      font-weight: 500;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      transition: background 0.2s;
+    }
+
+    .btn-sticky-tg:hover {
+      background: rgba(255, 255, 255, 0.22);
+    }
+
+    .btn-sticky-book {
+      padding: 11px 22px;
+      border-radius: var(--radius-pill);
+      background: #FFFFFF;
+      color: var(--ink);
+      font-size: 14px;
+      font-weight: 600;
+      border: none;
+      transition: transform 0.2s, background 0.2s;
+    }
+
+    .btn-sticky-book:hover {
+      background: #F2F2EE;
+      transform: scale(1.02);
+    }
+
+    /* ==================== МОДАЛЬНОЕ ОКНО БЫСТРОЙ ЗАПИСИ И ДЕТАЛЕЙ ==================== */
+    dialog.custom-modal {
+      margin: auto;
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 0;
+      max-width: 540px;
+      width: calc(100% - 32px);
+      background: #FFFFFF;
+      color: var(--ink);
+      box-shadow: var(--shadow-lg);
+    }
+
+    dialog.custom-modal::backdrop {
+      background: rgba(20, 20, 19, 0.55);
+      backdrop-filter: blur(6px);
+    }
+
+    .modal-inner {
+      padding: 36px;
+    }
+
+    .modal-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 18px;
+    }
+
+    .modal-close {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      background: var(--bg-offwhite);
+      font-size: 18px;
+      display: grid;
+      place-items: center;
+    }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 40px 0;
+      background: var(--bg-offwhite);
+      font-size: 14px;
+      color: var(--ink-secondary);
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    /* АДАПТИВ */
+    @media (max-width: 1024px) {
+      .hero-grid,
+      .section-head,
+      .work-card.span-12,
+      .services-layout,
+      .process-layout,
+      .credentials-box,
+      .faq-grid,
+      .contact-card {
+        grid-template-columns: 1fr;
+      }
+
+      .work-card.span-6,
+      .work-card.span-4 {
+        grid-column: span 12;
+      }
+
+      .main-nav,
+      .logo-sub {
+        display: none;
+      }
+
+      .floating-trust-card {
+        left: 12px;
+        bottom: 16px;
+      }
+
+      .pheasant-mascot {
+        right: 8px;
+        top: -16px;
+        width: 120px;
+        height: 120px;
+      }
+    }
+
+    @media (max-width: 680px) {
+      .container {
+        padding: 0 20px;
+      }
+
+      .compare-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .price-item {
+        grid-template-columns: 1fr;
+        gap: 8px;
+      }
+
+      .price-item-cost {
+        text-align: left;
+      }
+
+      .contact-card {
+        padding: 28px 20px;
+      }
+
+      .sticky-bar-text span,
+      .btn-sticky-tg {
+        display: none;
+      }
+
+      .sticky-booking-bar {
+        padding: 8px 10px 8px 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#top" class="logo-wrap">
+        <span class="logo-badge">ОС</span>
+        <span>Ольга Сальникова</span>
+        <span class="logo-sub">Висцеральная терапия • Психосоматика</span>
+      </a>
+
+      <nav class="main-nav">
+        <a href="#methods">Методы</a>
+        <a href="#compare">Результат</a>
+        <a href="#services">Прайс-лист</a>
+        <a href="#process">Как проходит сеанс</a>
+        <a href="#faq">Вопросы</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://t.me/salon76" target="_blank" rel="noopener" class="tg-chip">
+          <span class="tg-dot"></span>
+          <span>@saln76</span>
+        </a>
+        <button type="button" class="btn-header" onclick="openQuickModal('Комплексный подход (2 ч — 5 000 ₽)')">
+          Записаться
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="hero-section" id="top">
+    <div class="container">
+      <div class="hero-top-meta">
+        <div class="status-pill">
+          <span>📍 г. Владимир</span>
+          <span>•</span>
+          <span>Очный приём и онлайн-консультации</span>
+        </div>
+        <div class="status-pill">
+          <span>Диплом школы <strong>А.Т. Огулова</strong></span>
+          <span>•</span>
+          <span>Медицинское образование</span>
+        </div>
+      </div>
+
+      <div class="hero-grid">
+        <div>
+          <h1 class="hero-title">
+            <span class="line">Устраняем причину,</span>
+            <span class="line"><span class="serif-italic">а не маскируем</span></span>
+            <span class="line">симптомы.</span>
+          </h1>
+
+          <p class="hero-desc">
+            Комплексная коррекция функционального состояния организма во Владимире: висцеральный массаж по методу А.Т. Огулова, нейросоматика, вакуумные банки, Гуаша и гирудотерапия.
+          </p>
+
+          <div class="hero-cta-row">
+            <button type="button" class="btn-primary-lg" onclick="openQuickModal('Комплексный подход (2 ч — 5 000 ₽)')">
+              <span>Записаться на приём</span>
+              <span>→</span>
+            </button>
+            <a href="#services" class="btn-secondary-lg">Смотреть прайс-лист</a>
+          </div>
+
+          <div class="hero-mini-cases">
+            <div class="mini-thumbs">
+              <a href="#methods" class="mini-thumb" title="Висцеральная практика">ЖКТ</a>
+              <a href="#methods" class="mini-thumb" title="Психосоматика">Психика</a>
+              <a href="#methods" class="mini-thumb" title="Баночный массаж и Гуаша">Лимфа</a>
+            </div>
+            <div class="mini-cases-caption">
+              <strong>Системный подход к здоровью</strong>
+              <span>Член Профессиональной Ассоциации специалистов висцеральных практик</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Правый интерактивный блок с портретом и Фазаном -->
+        <div class="hero-stage">
+          <!-- Маскот Фазан (кликабельный, реагирует на наведение и клик) -->
+          <div class="pheasant-mascot" id="pheasantMascot" title="Нажмите, чтобы узнать совет дня">
+            <div class="pheasant-tooltip" id="pheasantSpeech">Начни утро со стакана горячей воды</div>
+            <!-- Кастомный детализированный SVG Фазан в благородных тонах -->
+            <svg width="96" height="96" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Фазан — символ природного баланса">
+              <!-- Длинный полосатый хвост фазана -->
+              <path d="M44 74C26 82 14 96 8 108C20 100 34 89 49 80" stroke="#B68D40" stroke-width="3.5" stroke-linecap="round"/>
+              <path d="M46 77C31 88 21 101 16 112C27 104 39 93 51 82" stroke="#3A4D39" stroke-width="2.5" stroke-linecap="round"/>
+              <!-- Тело фазана -->
+              <ellipse cx="64" cy="68" rx="22" ry="15" transform="rotate(-18 64 68)" fill="#9E6B3B"/>
+              <path d="M48 70C56 64 68 62 78 66" stroke="#E5C17B" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 4"/>
+              <path d="M51 75C60 70 70 69 79 72" stroke="#2D3A2D" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 4"/>
+              <!-- Изумрудная шея и голова -->
+              <path d="M76 60C80 48 82 38 78 30C75 24 68 24 65 30C62 36 65 48 62 58" fill="#2F4F3E"/>
+              <!-- Белое кольцо на шее -->
+              <path d="M64 47C70 49 76 48 80 45" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+              <!-- Красная щёчка и глаз -->
+              <circle cx="73" cy="30" r="4.5" fill="#C84B31"/>
+              <circle cx="74" cy="29.5" r="1.5" fill="#141413"/>
+              <!-- Золотистый клюв и хохолок -->
+              <path d="M78 29L87 31L78 34Z" fill="#D9A84E"/>
+              <path d="M68 25C65 20 61 19 58 20" stroke="#3A4D39" stroke-width="2" stroke-linecap="round"/>
+              <!-- Лапки -->
+              <path d="M62 81L60 95M60 95L54 97M60 95L66 97" stroke="#5C5C58" stroke-width="2" stroke-linecap="round"/>
+              <path d="M71 79L72 93M72 93L67 95M72 93L77 95" stroke="#5C5C58" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+
+          <div class="stage-card">
+            <div class="stage-portrait-wrap">
+              <img src="2C7A0803.jpg" alt="Ольга Сальникова — висцеральный терапевт и психолог по психосоматике" />
+            </div>
+            <div class="stage-caption-bar">
+              <div>
+                <div class="name">Ольга Сальникова</div>
+                <div class="role">Висцеральный практик • Психосоматолог</div>
+              </div>
+              <a href="https://t.me/saln76" target="_blank" rel="noopener" class="tg-chip">Telegram →</a>
+            </div>
+          </div>
+
+          <div class="floating-trust-card">
+            <div class="eyebrow">Комплексный метод</div>
+            <p>Снятие венозного и лимфатического застоя + работа с психосоматикой</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== СЕКЦИЯ 2: НАПРАВЛЕНИЯ И МЕТОДЫ ==================== -->
+  <section class="block-section" id="methods">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="section-kicker">01 / Технология работы</span>
+          <h2 class="section-title">Направления и оздоровительные практики</h2>
+        </div>
+        <p class="section-subtitle">
+          При нарушении микроциркуляции возникает дефицит кислорода, венозный и лимфатический застой. Я объединяю мануальную коррекцию внутренних органов и психологическую работу, чтобы убрать первопричину.
+        </p>
+      </div>
+
+      <div class="works-stack">
+        <!-- Флагманская карточка 01 -->
+        <article class="work-card span-12">
+          <div>
+            <div class="work-meta">
+              <span class="work-index">01 / Флагманский сеанс</span>
+              <span class="work-badge">Тело + Психосоматика</span>
+            </div>
+            <h3>Комплексный подход: Висцеральная терапия + работа с психосоматикой</h3>
+            <p>
+              Двухчасовая глубокая проработка. Через мягкую ручную правку снимаем спазмы сфинктеров, восстанавливаем кровоснабжение и отток лимфы, а затем находим и прорабатываем эмоциональный триггер, который запускает зажим в теле.
+            </p>
+            <ul class="work-bullets">
+              <li>Нормализация работы органов брюшной полости и малого таза</li>
+              <li>Устранение венозного и лимфатического застоя в тканях</li>
+              <li>Снятие психосоматических блоков, хронической усталости и тревоги</li>
+            </ul>
+            <div class="work-card-actions">
+              <button type="button" class="btn-card-detail" onclick="openMethodModal('complex')">Подробнее о механике сеанса →</button>
+            </div>
+          </div>
+
+          <div class="featured-panel">
+            <span class="tag">Максимальный эффект за 1 визит</span>
+            <div class="big-price">5 000 ₽</div>
+            <span class="duration">Длительность сеанса: 2 часа</span>
+            <button type="button" class="btn-primary-lg" style="width:100%; justify-content:center;" onclick="openQuickModal('Комплексный подход (2 ч — 5 000 ₽)')">
+              Записаться на комплекс
+            </button>
+          </div>
+        </article>
+
+        <!-- Карточка 02 -->
+        <article class="work-card span-6">
+          <div>
+            <div class="work-meta">
+              <span class="work-index">02</span>
+              <span class="work-badge">Метод А.Т. Огулова</span>
+            </div>
+            <h3>Висцеральный массаж</h3>
+            <p>
+              Послойная ручная работа с внутренними органами через переднюю стенку живота. Восстанавливает капиллярное русло, улучшает желчеотток, ферментативную активность и укрепляет иммунную систему.
+            </p>
+            <ul class="work-bullets">
+              <li>Снятие спазмов желчного пузыря, кишечника и диафрагмы</li>
+              <li>Улучшение обмена веществ и микрофлоры</li>
+              <li>1,5 часа — 4 000 ₽</li>
+            </ul>
+          </div>
+          <div class="work-card-actions">
+            <button type="button" class="btn-card-detail" onclick="openMethodModal('visceral')">Как это работает →</button>
+            <button type="button" class="btn-pick-service" onclick="openQuickModal('Висцеральный массаж (1,5 ч — 4 000 ₽)')">Выбрать</button>
+          </div>
+        </article>
+
+        <!-- Карточка 03 -->
+        <article class="work-card span-6">
+          <div>
+            <div class="work-meta">
+              <span class="work-index">03</span>
+              <span class="work-badge">Нейросоматика</span>
+            </div>
+            <h3>Психологическая консультация по психосоматике</h3>
+            <p>
+              Индивидуальная работа с телесными симптомами, которые не проходят после стандартного лечения: головные боли, ком в горле, зажимы в плечах и шее, реакции ЖКТ на стресс.
+            </p>
+            <ul class="work-bullets">
+              <li>Поиск первопричины телесной реакции без эзотерики</li>
+              <li>Перестройка автоматических реакций нервной системы</li>
+              <li>1 час — 3 000 ₽ (очно или онлайн)</li>
+            </ul>
+          </div>
+          <div class="work-card-actions">
+            <button type="button" class="btn-card-detail" onclick="openMethodModal('psycho')">Подробнее →</button>
+            <button type="button" class="btn-pick-service" onclick="openQuickModal('Психологическая консультация (1 ч — 3 000 ₽)')">Выбрать</button>
+          </div>
+        </article>
+
+        <!-- Карточка 04 -->
+        <article class="work-card span-4">
+          <div>
+            <div class="work-meta">
+              <span class="work-index">04</span>
+              <span class="work-badge">Глубокие ткани</span>
+            </div>
+            <h3>Вакуумный баночный массаж и Гуаша</h3>
+            <p>
+              Глубинная проработка мягких тканей и биологически активных точек, связанных с внутренними органами. Убирает застойную кровь и запускает мощный противовоспалительный отклик.
+            </p>
+            <ul class="work-bullets">
+              <li>Купирование отёков и болей в спине</li>
+              <li>Повышение эластичности связок и мышц</li>
+            </ul>
+          </div>
+          <div class="work-card-actions">
+            <button type="button" class="btn-card-detail" onclick="openMethodModal('vacuum')">О следах после банок →</button>
+          </div>
+        </article>
+
+        <!-- Карточка 05 -->
+        <article class="work-card span-4">
+          <div>
+            <div class="work-meta">
+              <span class="work-index">05</span>
+              <span class="work-badge">Гирудооздоровление</span>
+            </div>
+            <h3>Гирудотерапия (постановка пиявок)</h3>
+            <p>
+              Разгрузка венозного и лимфатического русла с помощью природных ферментов медицинской пиявки. Эффективно при застойных явлениях, головных болях и гипертонии.
+            </p>
+            <ul class="work-bullets">
+              <li>Улучшение текучести крови и питания клеток</li>
+              <li>Сеанс 1 000 ₽ + 500 ₽ / пиявка</li>
+            </ul>
+          </div>
+          <div class="work-card-actions">
+            <button type="button" class="btn-pick-service" onclick="openQuickModal('Гирудотерапия (1 000 ₽ + 500 ₽/пиявка)')">Записаться</button>
+          </div>
+        </article>
+
+        <!-- Карточка 06 -->
+        <article class="work-card span-4">
+          <div>
+            <div class="work-meta">
+              <span class="work-index">06</span>
+              <span class="work-badge">Нутрициология и фито</span>
+            </div>
+            <h3>Нутрициология и фитотерапия</h3>
+            <p>
+              Коррекция питьевого режима, питания и травяных сборов для мягкой поддержки желчеоттока, печени и микрофлоры кишечника между сеансами.
+            </p>
+            <ul class="work-bullets">
+              <li>Рекомендации под задачи вашего организма</li>
+              <li>Закрепление результата терапии дома</li>
+            </ul>
+          </div>
+          <div class="work-card-actions">
+            <button type="button" class="btn-pick-service" onclick="openQuickModal('Консультация с подбором рекомендаций')">Уточнить</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== СЕКЦИЯ 3: БЫЛО / СТАЛО (Эффект терапии) ==================== -->
+  <section class="block-section compare-section" id="compare">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="section-kicker">02 / Физиология изменений</span>
+          <h2 class="section-title">Тот же организм. Другое самочувствие.</h2>
+        </div>
+        <p class="section-subtitle">
+          Что происходит, когда мы убираем венозный застой, освобождаем диафрагму и снимаем фоновое напряжение нервной системы.
+        </p>
+      </div>
+
+      <div class="compare-wrapper">
+        <div class="compare-grid">
+          <div class="state-box before">
+            <span class="state-label">До коррекции</span>
+            <h3>Застой и хронический спазм</h3>
+            <ul class="state-list">
+              <li>Нарушена микроциркуляция крови, тканям не хватает кислорода и питания</li>
+              <li>Венозный и лимфатический застой, отёчность лица и тела</li>
+              <li>Вязкая желчь, тяжесть после еды, дискомфорт в животе</li>
+              <li>Головные боли, зажатая шея и плечелопаточная зона</li>
+              <li>Постоянное внутреннее напряжение, выгорание, тревожный сон</li>
+            </ul>
+          </div>
+
+          <div class="state-box after">
+            <span class="state-label">После курса и проработки</span>
+            <h3>Свободный кровоток и лёгкость</h3>
+            <ul class="state-list">
+              <li>Восстановлено капиллярное кровоснабжение и отток лимфы</li>
+              <li>Нормализован желчеотток, ферментативная активность и пищеварение</li>
+              <li>Уходит скованность в спине, шее и грудном отделе</li>
+              <li>Укрепляется иммунная система за счёт здоровой микрофлоры</li>
+              <li>Спокойная нервная система и понимание сигналов своего тела</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== СЕКЦИЯ 4: УСЛУГИ И ПОЛНЫЙ ПРАЙС-ЛИСТ ==================== -->
+  <section class="block-section" id="services">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="section-kicker">03 / Стоимость и длительность</span>
+          <h2 class="section-title">Услуги и прайс-лист</h2>
+        </div>
+        <p class="section-subtitle">
+          Выберите категорию, чтобы посмотреть точное время и стоимость каждого сеанса. Можно сразу нажать «Записаться» напротив нужной процедуры.
+        </p>
+      </div>
+
+      <div class="services-layout">
+        <div>
+          <div class="service-tabs" role="tablist">
+            <button type="button" class="service-tab-btn active" data-target="panel-all">
+              <span>Все услуги (11)</span>
+              <span>→</span>
+            </button>
+            <button type="button" class="service-tab-btn" data-target="panel-complex">
+              <span>Комплекс и психология</span>
+              <span>→</span>
+            </button>
+            <button type="button" class="service-tab-btn" data-target="panel-body">
+              <span>Висцеральный и массаж тела</span>
+              <span>→</span>
+            </button>
+            <button type="button" class="service-tab-btn" data-target="panel-face-hirudo">
+              <span>Лицо и гирудотерапия</span>
+              <span>→</span>
+            </button>
+          </div>
+
+          <!-- Карточка с фазаном в сайдбаре прайса -->
+          <div class="pheasant-aside-card">
+            <svg width="58" height="58" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M44 74C26 82 14 96 8 108C20 100 34 89 49 80" stroke="#B68D40" stroke-width="4" stroke-linecap="round"/>
+              <ellipse cx="64" cy="68" rx="22" ry="15" transform="rotate(-18 64 68)" fill="#9E6B3B"/>
+              <path d="M76 60C80 48 82 38 78 30C75 24 68 24 65 30C62 36 65 48 62 58" fill="#2F4F3E"/>
+              <path d="M64 47C70 49 76 48 80 45" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+              <circle cx="73" cy="30" r="4.5" fill="#C84B31"/>
+              <path d="M78 29L87 31L78 34Z" fill="#D9A84E"/>
+            </svg>
+            <p>Не знаете, с чего начать? Напишите в Telegram <a href="https://t.me/salon76" target="_blank" style="text-decoration:underline; color:var(--ink); font-weight:600;">@salon76</a> — помогу подобрать формат под ваш запрос.</p>
+          </div>
+        </div>
+
+        <div>
+          <!-- Панель: Все услуги (полный актуальный прайс) -->
+          <div class="service-panel active" id="panel-all">
+            <div class="price-item">
+              <div>
+                <div class="price-item-title">Комплексный подход: Висцеральная терапия + психосоматика</div>
+                <div class="price-item-note">Глубокая телесная коррекция + проработка психосоматической причины</div>
+              </div>
+              <div class="price-item-time">2 ч</div>
+              <div class="price-item-cost">5 000 ₽</div>
+              <button type="button" class="btn-pick-service" onclick="openQuickModal('Комплексный подход (2 ч — 5 000 ₽)')">Записаться</button>
+            </div>
+
+            <div class="price-item">
+              <div>
+                <div class="price-item-title">Висцеральный массаж</div>
+                <div class="price-item-note">По методу А.Т. Огулова — нормализация работы внутренних органов</div>
+              </div>
+              <div class="price-item-time">1,5 ч</div>
+              <div class="price-item-cost">4 000 ₽</div>
+              <button type="button" class="btn-pick-service" onclick="openQuickModal('Висцеральный массаж (1,5 ч — 4 000 ₽)')">Записаться</button>
+            </div>
+
+            <div class="price-item">
+              <div>
+                <div class="price-item-title">Глубокий общий массаж тела</div>
+                <div class="price-item-note">Тщательная проработка глубоких мышечных слоёв и фасций</div>
+              </div>
+              <div class="price-item-time">1,5 ч</div>
+              <div class="price-item-cost">3 500 ₽</div>
+              <button type="button" class="btn-pick-service" onclick="openQuickModal('Глубокий общий массаж тела (1,5 ч — 3 500 ₽)')">Записаться</button>
+            </div>
+
+            <div class="price-item">
+              <div>
+                <div class="price-item-title">Массаж с акцентом на глубокую проработку</div>
+                <div class="price-item-note">Прицельное снятие зажимов в проблемной зоне (спина, шея, поясница)</div>
+              </div>
+              <div class="price-item-time">1 ч</div>
+              <div class="price-item-cost">3 000 ₽</div>
+              <button type="button" class="btn-pick-service" onclick="openQuickModal('Массаж с акцентом на глубокую проработку (1 ч — 3 000 ₽)')">Записаться</button>
+            </div>
+
+            <div class="price-item">
+              <div>
+                <div class="price-item-title">Психологическая консультация</div>
+                <div class="price-item-note">Работа с психосоматикой, нейросоматикой и эмоциональными блоками</div>
+              </div>
+              <div class="price-item-time">1 ч</div>
+              <div class="price-item-cost">3 000 ₽</div>
+              <button type="button" class="btn-pick-service" onclick="openQuickModal('Психологическая консультация (1 ч — 3 000 ₽)')">Записаться</button>
+            </div>
+
+            <div class="price-item">
+              <div>
+                <div class="price-item-title">Общий классический массаж тела</div>
+                <div class="price-item-note">Снятие мышечной усталости и улучшение общего кровообращения</div>
+              </div>
+              <div class="price-item-time">1 ч</div>
+              <div class="price-item-cost">2 500 ₽</div>
+              <button type="button" class="btn-pick-service" onclick="openQuickModal('Общий классический массаж тела (1 ч — 2 500 ₽)')">Записаться</button>
+            </div>
+
+            <div class="price-item">
+              <div>
+                <div class="price-item-title">Аппаратный вибромассаж «Жиромесс»</div>
+                <div class="price-item-note">Интенсивный лимфодренаж и проработка застойных зон</div>
+              </div>
+              <div class="price-item-time">1 ч</div>
+              <div class="price-item-cost">2 500 ₽</div>
+              <button type="button" class="btn-pick-service" onclick="openQuickModal('Аппаратный вибромассаж «Жиромесс» (1 ч — 2 500 ₽)')">Записаться</button>
+            </div>
+
+            <div class="price-item">
+              <div>
+                <div class="price-item-title">Оздоровительный экспресс-массаж</div>
+                <div class="price-item-note">Быстрая локальная разгрузка спазмированной зоны</div>
+              </div>
+              <div class="price-item-time">40 мин</div>
+              <div class="price-item-cost">2 000 ₽</div>
+              <button type="button" class="btn-pick-service" onclick="openQuickModal('Оздоровительный экспресс-массаж (40 мин — 2 000 ₽)')">Записаться</button>
+            </div>
+
+            <div class="price-item">
+              <div>
+                <div class="price-item-title">Профессиональный массаж лица</div>
+                <div class="price-item-note">Уход за лицом, лимфодренаж и расслабление мимической мускулатуры</div>
+              </div>
+              <div class="price-item-time">50 мин</div>
+              <div class="price-item-cost">2 000 ₽</div>
+              <button type="button" class="btn-pick-service" onclick="openQuickModal('Профессиональный массаж лица (50 мин — 2 000 ₽)')">Записаться</button>
+            </div>
+
+            <div class="price-item">
+              <div>
+                <div class="price-item-title">Детский массаж (до 12 лет)</div>
+                <div class="price-item-note">Мягкий оздоровительный сеанс для детей</div>
+              </div>
+              <div class="price-item-time">40 мин</div>
+              <div class="price-item-cost">1 500 ₽</div>
+              <button type="button" class="btn-pick-service" onclick="openQuickModal('Детский массаж до 12 лет (40 мин — 1 500 ₽)')">Записаться</button>
+            </div>
+
+            <div class="price-item">
+              <div>
+                <div class="price-item-title">Гирудотерапия (постановка пиявок)</div>
+                <div class="price-item-note">Сеанс постановки медицинских пиявок по оздоровительным схемам</div>
+              </div>
+              <div class="price-item-time">сеанс</div>
+              <div class="price-item-cost">1 000 ₽ + 500 ₽/пиявка</div>
+              <button type="button" class="btn-pick-service" onclick="openQuickModal('Гирудотерапия (1 000 ₽ + 500 ₽/пиявка)')">Записаться</button>
+            </div>
+          </div>
+
+          <!-- Панель: Комплекс и психология -->
+          <div class="service-panel" id="panel-complex">
+            <div class="price-item">
+              <div>
+                <div class="price-item-title">Комплексный подход: Висцеральная терапия + психосоматика</div>
+                <div class="price-item-note">Двухчасовая глубокая сессия: правка внутренних органов + работа с психосоматикой</div>
+              </div>
+              <div class="price-item-time">2 ч</div>
+              <div class="price-item-cost">5 000 ₽</div>
+              <button type="button" class="btn-pick-service" onclick="openQuickModal('Комплексный подход (2 ч — 5 000 ₽)')">Записаться</button>
+            </div>
+            <div class="price-item">
+              <div>
+                <div class="price-item-title">Психологическая консультация</div>
+                <div class="price-item-note">Индивидуальная консультация по психосоматике и нейросоматике</div>
+              </div>
+              <div class="price-item-time">1 ч</div>
+              <div class="price-item-cost">3 000 ₽</div>
+              <button type="button" class="btn-pick-service" onclick="openQuickModal('Психологическая консультация (1 ч — 3 000 ₽)')">Записаться</button>
+            </div>
+          </div>
+
+          <!-- Панель: Массаж тела -->
+          <div class="service-panel" id="panel-body">
+            <div class="price-item">
+              <div>
+                <div class="price-item-title">Висцеральный массаж</div>
+                <div class="price-item-note">По методу А.Т. Огулова</div>
+              </div>
+              <div class="price-item-time">1,5 ч</div>
+              <div class="price-item-cost">4 000 ₽</div>
+              <button type="button" class="btn-pick-service" onclick="openQuickModal('Висцеральный массаж (1,5 ч — 4 000 ₽)')">Записаться</button>
+            </div>
+            <div class="price-item">
+              <div>
+                <div class="price-item-title">Глубокий общий массаж тела</div>
+                <div class="price-item-note">Проработка мышц и фасций всего тела</div>
+              </div>
+              <div class="price-item-time">1,5 ч</div>
+              <div class="price-item-cost">3 500 ₽</div>
+              <button type="button" class="btn-pick-service" onclick="openQuickModal('Глубокий общий массаж тела (1,5 ч — 3 500 ₽)')">Записаться</button>
+            </div>
+            <div class="price-item">
+              <div>
+                <div class="price-item-title">Массаж с акцентом на глубокую проработку</div>
+                <div class="price-item-note">Прицельная работа с проблемной зоной</div>
+              </div>
+              <div class="price-item-time">1 ч</div>
+              <div class="price-item-cost">3 000 ₽</div>
+              <button type="button" class="btn-pick-service" onclick="openQuickModal('Массаж с акцентом на глубокую проработку (1 ч — 3 000 ₽)')">Записаться</button>
+            </div>
+            <div class="price-item">
+              <div>
+                <div class="price-item-title">Общий классический массаж тела</div>
+                <div class="price-item-note">Классическая оздоровительная техника</div>
+              </div>
+              <div class="price-item-time">1 ч</div>
+              <div class="price-item-cost">2 500 ₽</div>
+              <button type="button" class="btn-pick-service" onclick="openQuickModal('Общий классический массаж тела (1 ч — 2 500 ₽)')">Записаться</button>
+            </div>
+            <div class="price-item">
+              <div>
+                <div class="price-item-title">Аппаратный вибромассаж «Жиромесс»</div>
+                <div class="price-item-note">Аппаратная коррекция и лимфодренаж</div>
+              </div>
+              <div class="price-item-time">1 ч</div>
+              <div class="price-item-cost">2 500 ₽</div>
+              <button type="button" class="btn-pick-service" onclick="openQuickModal('Аппаратный вибромассаж «Жиромесс» (1 ч — 2 500 ₽)')">Записаться</button>
+            </div>
+            <div class="price-item">
+              <div>
+                <div class="price-item-title">Оздоровительный экспресс-массаж</div>
+                <div class="price-item-note">Локальное снятие спазма</div>
+              </div>
+              <div class="price-item-time">40 мин</div>
+              <div class="price-item-cost">2 000 ₽</div>
+              <button type="button" class="btn-pick-service" onclick="openQuickModal('Оздоровительный экспресс-массаж (40 мин — 2 000 ₽)')">Записаться</button>
+            </div>
+            <div class="price-item">
+              <div>
+                <div class="price-item-title">Детский массаж (до 12 лет)</div>
+                <div class="price-item-note">Оздоровительный детский массаж</div>
+              </div>
+              <div class="price-item-time">40 мин</div>
+              <div class="price-item-cost">1 500 ₽</div>
+              <button type="button" class="btn-pick-service" onclick="openQuickModal('Детский массаж до 12 лет (40 мин — 1 500 ₽)')">Записаться</button>
+            </div>
+          </div>
+
+          <!-- Панель: Лицо и гирудотерапия -->
+          <div class="service-panel" id="panel-face-hirudo">
+            <div class="price-item">
+              <div>
+                <div class="price-item-title">Профессиональный массаж лица</div>
+                <div class="price-item-note">Уход за лицом, лимфодренаж, тонус</div>
+              </div>
+              <div class="price-item-time">50 мин</div>
+              <div class="price-item-cost">2 000 ₽</div>
+              <button type="button" class="btn-pick-service" onclick="openQuickModal('Профессиональный массаж лица (50 мин — 2 000 ₽)')">Записаться</button>
+            </div>
+            <div class="price-item">
+              <div>
+                <div class="price-item-title">Гирудотерапия (постановка пиявок)</div>
+                <div class="price-item-note">Постановка медицинских пиявок</div>
+              </div>
+              <div class="price-item-time">сеанс</div>
+              <div class="price-item-cost">1 000 ₽ + 500 ₽/пиявка</div>
+              <button type="button" class="btn-pick-service" onclick="openQuickModal('Гирудотерапия (1 000 ₽ + 500 ₽/пиявка)')">Записаться</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== СЕКЦИЯ 5: КАК ПРОХОДИТ СЕАНС (Интерактивные шаги) ==================== -->
+  <section class="block-section" id="process">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="section-kicker">04 / Этапы работы</span>
+          <h2 class="section-title">От первичного разбора до устойчивого результата</h2>
+        </div>
+        <p class="section-subtitle">
+          Нажмите на любой этап, чтобы посмотреть, что именно мы делаем на приёме во Владимире.
+        </p>
+      </div>
+
+      <div class="process-layout">
+        <ul class="steps-list" id="stepsList">
+          <li class="step-row active" data-step="0">
+            <div class="step-row-head">
+              <span class="step-num-badge">01</span>
+              <h3>Разбираемся в первопричине</h3>
+            </div>
+            <p>Собираем анамнез, оцениваем зоны венозного и лимфатического застоя, уточняем эмоциональный фон и образ жизни.</p>
+            <div class="step-out"><strong>На выходе:</strong> точная карта напряжения и подбор техники под ваш запрос.</div>
+          </li>
+
+          <li class="step-row" data-step="1">
+            <div class="step-row-head">
+              <span class="step-num-badge">02</span>
+              <h3>Мягкая висцеральная и тканевая коррекция</h3>
+            </div>
+            <p>Прорабатываем внутренние органы по методу А.Т. Огулова, при необходимости подключаем вакуумные банки или скребок Гуаша.</p>
+            <div class="step-out"><strong>На выходе:</strong> снятие спазмов, запуск кровотока и оттока желчи.</div>
+          </li>
+
+          <li class="step-row" data-step="2">
+            <div class="step-row-head">
+              <span class="step-num-badge">03</span>
+              <h3>Психосоматическая разгрузка</h3>
+            </div>
+            <p>В комплексном формате разбираем стрессовую программу, из-за которой тело удерживает хронический зажим.</p>
+            <div class="step-out"><strong>На выходе:</strong> освобождение нервной системы и отсутствие отката симптомов.</div>
+          </li>
+
+          <li class="step-row" data-step="3">
+            <div class="step-row-head">
+              <span class="step-num-badge">04</span>
+              <h3>Рекомендации по поддержке дома</h3>
+            </div>
+            <p>Подбираем питьевой режим, корректируем привычки, даём рекомендации по нутрициологии и фитоподдержке.</p>
+            <div class="step-out"><strong>На выходе:</strong> понятный план действий на каждый день.</div>
+          </li>
+        </ul>
+
+        <div class="process-preview-card">
+          <div class="preview-screen" id="stepPreviewBox">
+            <div class="preview-screen-top">
+              <span id="previewStepNum">Этап 01 из 04</span>
+              <span>Ольга Сальникова • Владимир</span>
+            </div>
+            <h4 id="previewStepTitle">Диагностика состояния тканей и органов</h4>
+            <p id="previewStepDesc">
+              Перед началом работы определяем, где нарушена микроциркуляция крови, есть ли спазм сфинктеров и какие телесные симптомы связаны со стрессом. Работа строится бережно и без резкой боли.
+            </p>
+            <div class="preview-tags" id="previewStepTags">
+              <span>Оценка застоя</span>
+              <span>Сбор анамнеза</span>
+              <span>Индивидуальный план</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== СЕКЦИЯ 6: ОБРАЗОВАНИЕ И КВАЛИФИКАЦИЯ ==================== -->
+  <section class="block-section">
+    <div class="container">
+      <div class="credentials-box">
+        <div>
+          <span class="section-kicker">05 / Подтверждённая база</span>
+          <h2 class="section-title" style="margin-bottom:20px;">Образование и профессиональные регалии</h2>
+          <p class="section-subtitle" style="margin-bottom:28px;">
+            Работа с внутренними органами требует глубокого знания анатомии, физиологии и клинического мышления.
+          </p>
+          <button type="button" class="btn-primary-lg" onclick="openQuickModal('Запись на консультацию')">
+            Записаться к специалисту
+          </button>
+        </div>
+
+        <div class="cred-cards">
+          <div class="cred-item">
+            <div>
+              <strong>Диплом об обучении у А.Т. Огулова</strong>
+              <span>Висцеральный массаж и коррекция функционального состояния организма</span>
+            </div>
+            <span class="cred-pill">Основной профиль</span>
+          </div>
+
+          <div class="cred-item">
+            <div>
+              <strong>Медицинское образование</strong>
+              <span>Базовая медицинская подготовка и знание клинической анатомии</span>
+            </div>
+            <span class="cred-pill">Диплом</span>
+          </div>
+
+          <div class="cred-item">
+            <div>
+              <strong>Член Профессиональной Ассоциации</strong>
+              <span>Ассоциация специалистов висцеральных практик</span>
+            </div>
+            <span class="cred-pill">Членство</span>
+          </div>
+
+          <div class="cred-item">
+            <div>
+              <strong>Психолог-консультант, нутрициолог, фито- и гирудотерапевт</strong>
+              <span>Нейросоматика, вакуумный баночный массаж, массаж Гуаша</span>
+            </div>
+            <span class="cred-pill">5+ квалификаций</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== СЕКЦИЯ 7: ВОПРОСЫ И РАЗБОРЫ ==================== -->
+  <section class="block-section" id="faq">
+    <div class="container faq-grid">
+      <div>
+        <span class="section-kicker">06 / База знаний</span>
+        <h2 class="section-title" style="margin-bottom:20px;">Частые вопросы</h2>
+        <p class="section-subtitle">
+          Разбираем главные вопросы о висцеральной терапии, баночном массаже, головных болях и подготовке к сеансу.
+        </p>
+      </div>
+
+      <ul class="faq-list">
+        <li class="faq-item">
+          <button type="button" class="faq-btn">
+            <span>Почему после вакуумных банок остаются синяки — это нормально?</span>
+            <span class="faq-plus">+</span>
+          </button>
+          <div class="faq-body">
+            <div class="faq-body-inner">
+              Синяки после вакуумных банок — не побочный эффект, а подтверждение состоявшейся терапии. Под действием вакуума застойные биологически активные элементы покидают капиллярное русло, организм включает защитную функцию, снижает воспаление, стимулирует приток свежей крови и ускоряет восстановление тканей.
+            </div>
+          </div>
+        </li>
+
+        <li class="faq-item">
+          <button type="button" class="faq-btn">
+            <span>Как связаны головные боли, застой в шее и неправильный бюстгальтер?</span>
+            <span class="faq-plus">+</span>
+          </button>
+          <div class="faq-body">
+            <div class="faq-body-inner">
+              Тесный бюстгальтер с жёсткими косточками и узкими бретелями пережимает мягкие ткани, сосуды и лимфатические протоки в плечелопаточной и грудной зоне. Образуется застойная кровь, которая мешает нормальному току чистой крови к голове. На приёме мы освобождаем воротниковую зону, а для повседневной носки я рекомендую мягкие топы без косточек с широкими бретелями и самомассаж сухой щёткой.
+            </div>
+          </div>
+        </li>
+
+        <li class="faq-item">
+          <button type="button" class="faq-btn">
+            <span>Зачем пить тёпло-горячую воду каждое утро натощак?</span>
+            <span class="faq-plus">+</span>
+          </button>
+          <div class="faq-body">
+            <div class="faq-body-inner">
+              Тёпло-горячая вода стимулирует отток желчи. Когда желчь густая, она плохо поступает в двенадцатиперстную кишку, ухудшается расщепление жиров и выработка ферментов. Стакан чуть горячей воды утром делает желчь более текучей, улучшает пищеварение, цвет лица и помогает убрать головные боли.
+            </div>
+          </div>
+        </li>
+
+        <li class="faq-item">
+          <button type="button" class="faq-btn">
+            <span>Какие есть противопоказания к процедурам?</span>
+            <span class="faq-plus">+</span>
+          </button>
+          <div class="faq-body">
+            <div class="faq-body-inner">
+              Если заболевание находится в острой фазе и сопровождается повышением температуры тела или острым воспалительным процессом, от массажа и вакуумных процедур нужно временно отказаться до нормализации состояния.
+            </div>
+          </div>
+        </li>
+
+        <li class="faq-item">
+          <button type="button" class="faq-btn">
+            <span>Как быстро записаться и уточнить свободные окна во Владимире?</span>
+            <span class="faq-plus">+</span>
+          </button>
+          <div class="faq-body">
+            <div class="faq-body-inner">
+              Нажмите на кнопку «Записаться» на нижней плашке или напишите напрямую в Telegram <a href="https://t.me/salon76" target="_blank" style="text-decoration:underline; font-weight:600;">@saln76</a> — согласуем удобный день и время.
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ==================== СЕКЦИЯ 8: ЗАПИСЬ НА ПРИЁМ (@saln76) ==================== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-card">
+        <div>
+          <span class="section-kicker">07 / Запись во Владимире</span>
+          <h2 class="section-title" style="margin-bottom:18px;">Запишитесь на приём или консультацию</h2>
+          <p class="section-subtitle">
+            Выберите нужную процедуру — заявка автоматически сформируется для отправки в Telegram <strong style="color:var(--ink);">@saln76</strong>.
+          </p>
+
+          <div class="topic-chips" id="topicChips">
+            <button type="button" class="topic-chip active" data-service="Комплексный подход (2 ч — 5 000 ₽)">Комплексный подход</button>
+            <button type="button" class="topic-chip" data-service="Висцеральный массаж (1,5 ч — 4 000 ₽)">Висцеральный массаж</button>
+            <button type="button" class="topic-chip" data-service="Психологическая консультация (1 ч — 3 000 ₽)">Психосоматика</button>
+            <button type="button" class="topic-chip" data-service="Глубокий общий массаж тела (1,5 ч — 3 500 ₽)">Массаж тела</button>
+            <button type="button" class="topic-chip" data-service="Гирудотерапия (1 000 ₽ + 500 ₽/пиявка)">Гирудотерапия</button>
+          </div>
+
+          <a href="https://t.me/salon76" target="_blank" rel="noopener" class="direct-tg-box">
+            <span class="tg-dot"></span>
+            <span>Прямой контакт в Telegram: <strong>@saln76</strong></span>
+          </a>
+        </div>
+
+        <form class="booking-box" id="mainBookingForm">
+          <div class="field">
+            <label for="clientName">Ваше имя</label>
+            <input type="text" id="clientName" placeholder="Введите ваше имя" required />
+          </div>
+
+          <div class="field">
+            <label for="clientPhone">Телефон или ник в Telegram для связи</label>
+            <input type="text" id="clientPhone" placeholder="+7 (___) ___-__-__ или @username" required />
+          </div>
+
+          <div class="field">
+            <label for="clientService">Выбранная услуга</label>
+            <input type="text" id="clientService" value="Комплексный подход (2 ч — 5 000 ₽)" readonly />
+          </div>
+
+          <div class="field">
+            <label for="clientComment">Ваш запрос или удобное время</label>
+            <textarea id="clientComment" rows="3" placeholder="Например: хочу записаться на вечер буднего дня"></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary-lg" style="width:100%; justify-content:center;">
+            Записаться через Telegram @saln76 →
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer>
+    <div class="container footer-inner">
+      <div>© Ольга Сальникова • Висцеральная терапия, психосоматика, оздоровительные практики • г. Владимир</div>
+      <div style="display:flex; gap:24px;">
+        <a href="https://t.me/salon76" target="_blank" rel="noopener">Telegram @saln76</a>
+        <a href="#services">Прайс-лист</a>
+        <a href="#top">Наверх ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== АКТИВНАЯ НИЖНЯЯ ПЛАШКА ЗАПИСИ ==================== -->
+  <div class="sticky-booking-bar" role="region" aria-label="Быстрая запись на приём">
+    <div class="sticky-bar-info">
+      <span class="tg-dot"></span>
+      <div class="sticky-bar-text">
+        <strong>Ольга Сальникова</strong> <span>• Владимир • Запись на сеанс и консультацию</span>
+      </div>
+    </div>
+    <div class="sticky-bar-actions">
+      <a href="https://t.me/salon76" target="_blank" rel="noopener" class="btn-sticky-tg">@saln76</a>
+      <button type="button" class="btn-sticky-book" onclick="openQuickModal('Комплексный подход (2 ч — 5 000 ₽)')">
+        Записаться
+      </button>
+    </div>
+  </div>
+
+  <!-- ==================== МОДАЛЬНОЕ ОКНО БЫСТРОЙ ЗАПИСИ ==================== -->
+  <dialog class="custom-modal" id="quickBookingModal">
+    <div class="modal-inner">
+      <div class="modal-top">
+        <span class="section-kicker" style="margin:0;">Быстрая запись • @saln76</span>
+        <button type="button" class="modal-close" onclick="closeQuickModal()" aria-label="Закрыть">✕</button>
+      </div>
+      <h3 style="font-size:26px; letter-spacing:-0.02em; margin-bottom:8px;">Записаться на приём</h3>
+      <p style="font-size:14px; color:var(--ink-secondary); margin-bottom:20px;">
+        Заполните форму — откроется чат в Telegram <strong>@saln76</strong> с готовым сообщением для записи.
+      </p>
+
+      <form id="modalForm" style="display:grid; gap:14px;">
+        <div class="field">
+          <label for="modalName">Ваше имя</label>
+          <input type="text" id="modalName" placeholder="Как к вам обращаться" required />
+        </div>
+        <div class="field">
+          <label for="modalContact">Ваш телефон или Telegram</label>
+          <input type="text" id="modalContact" placeholder="+7 (___) ___-__-__" required />
+        </div>
+        <div class="field">
+          <label for="modalService">Услуга</label>
+          <input type="text" id="modalService" value="Комплексный подход (2 ч — 5 000 ₽)" />
+        </div>
+        <button type="submit" class="btn-primary-lg" style="width:100%; justify-content:center; margin-top:6px;">
+          Отправить в @saln76 →
+        </button>
+      </form>
+    </div>
+  </dialog>
+
+  <!-- ==================== МОДАЛЬНОЕ ОКНО ДЕТАЛЕЙ МЕТОДА ==================== -->
+  <dialog class="custom-modal" id="methodDetailModal">
+    <div class="modal-inner">
+      <div class="modal-top">
+        <span class="section-kicker" style="margin:0;" id="methodModalKicker">О методе</span>
+        <button type="button" class="modal-close" onclick="document.getElementById('methodDetailModal').close()" aria-label="Закрыть">✕</button>
+      </div>
+      <h3 style="font-size:26px; letter-spacing:-0.02em; margin-bottom:14px;" id="methodModalTitle"></h3>
+      <p style="font-size:15px; line-height:1.65; color:var(--ink-secondary); margin-bottom:24px;" id="methodModalText"></p>
+      <button type="button" class="btn-primary-lg" style="width:100%; justify-content:center;" id="methodModalBookBtn">
+        Записаться на эту практику
+      </button>
+    </div>
+  </dialog>
+
+  <script>
+    // 1. Тень у шапки при скролле
+    const header = document.getElementById('siteHeader');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 20);
+    });
+
+    // 2. Интерактивный маскот Фазан (смена советов по клику)
+    const pheasantTips = [
+      'Начни утро со стакана горячей воды',
+      'Убираем причину, а не симптомы',
+      'Здоровый желчеотток — чистая кожа',
+      'Запись во Владимире: @saln76',
+      'Тело и разум работают в связке'
+    ];
+    let tipIndex = 0;
+    const pheasantMascot = document.getElementById('pheasantMascot');
+    const pheasantSpeech = document.getElementById('pheasantSpeech');
+
+    pheasantMascot.addEventListener('click', () => {
+      tipIndex = (tipIndex + 1) % pheasantTips.length;
+      pheasantSpeech.textContent = pheasantTips[tipIndex];
+    });
+
+    // 3. Переключение вкладок прайс-листа
+    const serviceTabBtns = document.querySelectorAll('.service-tab-btn');
+    const servicePanels = document.querySelectorAll('.service-panel');
+
+    serviceTabBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        serviceTabBtns.forEach(b => b.classList.remove('active'));
+        servicePanels.forEach(p => p.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById(btn.dataset.target).classList.add('active');
+      });
+    });
+
+    // 4. Интерактивные этапы приёма (смена экрана справа)
+    const stepData = [
+      {
+        num: 'Этап 01 из 04',
+        title: 'Диагностика состояния тканей и органов',
+        desc: 'Перед началом работы определяем, где нарушена микроциркуляция крови, есть ли спазм сфинктеров и какие телесные симптомы связаны со стрессом. Работа строится бережно и без резкой боли.',
+        tags: ['Оценка застоя', 'Сбор анамнеза', 'Индивидуальный план']
+      },
+      {
+        num: 'Этап 02 из 04',
+        title: 'Висцеральная правка и вакуумная проработка',
+        desc: 'Мягкими надавливаниями по методу А.Т. Огулова снимаем напряжение с внутренних органов, восстанавливаем венозный и лимфатический отток. При необходимости ставим вакуумные банки или работаем скребком Гуаша.',
+        tags: ['Метод Огулова', 'Снятие спазмов', 'Лимфодренаж']
+      },
+      {
+        num: 'Этап 03 из 04',
+        title: 'Работа с психосоматикой и нейросоматикой',
+        desc: 'Находим эмоциональную первопричину, которая заставляет нервную систему снова и снова зажимать тело. Разгружаем психику, чтобы телесный эффект закрепился надолго.',
+        tags: ['Психосоматика', 'Снятие триггеров', 'Баланс нервной системы']
+      },
+      {
+        num: 'Этап 04 из 04',
+        title: 'Домашний протокол и поддержка',
+        desc: 'Вы уходите с понятными рекомендациями: как пить горячую воду для желчеоттока, какие фитосборы или нутриенты поддержат организм и как делать мягкий самомассаж.',
+        tags: ['Питьевой режим', 'Нутрициология', 'Фитоподдержка']
+      }
+    ];
+
+    const stepRows = document.querySelectorAll('.step-row');
+    stepRows.forEach(row => {
+      row.addEventListener('click', () => {
+        stepRows.forEach(r => r.classList.remove('active'));
+        row.classList.add('active');
+        const idx = Number(row.dataset.step);
+        const item = stepData[idx];
+        document.getElementById('previewStepNum').textContent = item.num;
+        document.getElementById('previewStepTitle').textContent = item.title;
+        document.getElementById('previewStepDesc').textContent = item.desc;
+        document.getElementById('previewStepTags').innerHTML = item.tags.map(t => `<span>${t}</span>`).join('');
+      });
+    });
+
+    // 5. Аккордеон FAQ
+    document.querySelectorAll('.faq-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.parentElement;
+        const body = item.querySelector('.faq-body');
+        const isOpen = item.classList.contains('open');
+
+        document.querySelectorAll('.faq-item').forEach(i => {
+          i.classList.remove('open');
+          i.querySelector('.faq-body').style.maxHeight = null;
+        });
+
+        if (!isOpen) {
+          item.classList.add('open');
+          body.style.maxHeight = body.scrollHeight + 'px';
+        }
+      });
+    });
+
+    // 6. Выбор услуги чипсами в нижней форме
+    const topicChips = document.querySelectorAll('.topic-chip');
+    const clientServiceInput = document.getElementById('clientService');
+
+    topicChips.forEach(chip => {
+      chip.addEventListener('click', () => {
+        topicChips.forEach(c => c.classList.remove('active'));
+        chip.classList.add('active');
+        clientServiceInput.value = chip.dataset.service;
+      });
+    });
+
+    // 7. Отправка заявок в Telegram @salon76
+    const TG_ACCOUNT = 'saln76';
+
+    function sendToTelegram(name, contact, service, comment) {
+      let msg = `Здравствуйте, Ольга! Хочу записаться на приём.\n• Имя: ${name}\n• Контакт: ${contact}\n• Услуга: ${service}`;
+      if (comment) msg += `\n• Комментарий: ${comment}`;
+      window.open(`https://t.me/${TG_ACCOUNT}?text=${encodeURIComponent(msg)}`, '_blank');
+    }
+
+    document.getElementById('mainBookingForm').addEventListener('submit', e => {
+      e.preventDefault();
+      sendToTelegram(
+        document.getElementById('clientName').value.trim(),
+        document.getElementById('clientPhone').value.trim(),
+        clientServiceInput.value.trim(),
+        document.getElementById('clientComment').value.trim()
+      );
+    });
+
+    // 8. Модальное окно быстрой записи
+    const quickModal = document.getElementById('quickBookingModal');
+    const modalServiceInput = document.getElementById('modalService');
+
+    function openQuickModal(serviceName) {
+      if (serviceName) modalServiceInput.value = serviceName;
+      quickModal.showModal();
+    }
+
+    function closeQuickModal() {
+      quickModal.close();
+    }
+
+    quickModal.addEventListener('click', e => {
+      if (e.target === quickModal) closeQuickModal();
+    });
+
+    document.getElementById('modalForm').addEventListener('submit', e => {
+      e.preventDefault();
+      sendToTelegram(
+        document.getElementById('modalName').value.trim(),
+        document.getElementById('modalContact').value.trim(),
+        modalServiceInput.value.trim(),
+        ''
+      );
+      closeQuickModal();
+    });
+
+    // 9. Модальное окно подробностей о методах
+    const methodDetails = {
+      complex: {
+        kicker: 'Флагманский формат • 2 часа • 5 000 ₽',
+        title: 'Комплексный подход: Висцеральная терапия + психосоматика',
+        text: 'На сеансе мы работаем одновременно с физиологией и психикой. Сначала через висцеральную правку снимаем спазмы сфинктеров, восстанавливаем микроциркуляцию крови и лимфы в органах. Затем разбираем психологический конфликт, который заставляет тело удерживать напряжение. Это даёт глубокий и стабильный результат.',
+        service: 'Комплексный подход (2 ч — 5 000 ₽)'
+      },
+      visceral: {
+        kicker: 'Метод А.Т. Огулова • 1,5 часа • 4 000 ₽',
+        title: 'Висцеральная практика',
+        text: 'В результате нарушения микроциркуляции возникает дефицит кислорода, венозный и лимфатический застой, ослабляется отток продуктов обмена. Висцеральный массаж мягко устраняет застой в органах и окружающих тканях, нормализует обмен веществ, ферментативную активность и укрепляет иммунитет.',
+        service: 'Висцеральный массаж (1,5 ч — 4 000 ₽)'
+      },
+      psycho: {
+        kicker: 'Нейросоматика • 1 час • 3 000 ₽',
+        title: 'Психологическая консультация по психосоматике',
+        text: 'Любой затяжной стресс или подавленная эмоция отражается в теле мышечным панцирем и спазмом сосудов. На консультации мы находим точную связку между жизненной ситуацией и симптомом, чтобы тело перестало сигналить болью.',
+        service: 'Психологическая консультация (1 ч — 3 000 ₽)'
+      },
+      vacuum: {
+        kicker: 'Глубинная проработка тканей',
+        title: 'Вакуумный баночный массаж и Гуаша',
+        text: 'По глубине воздействия на мягкие ткани вакуумный массаж не имеет аналогов. Он стимулирует биологические точки, связанные с внутренними органами, купирует отёки, снижает воспаление и возвращает эластичность мышцам и связкам.',
+        service: 'Массаж с акцентом на глубокую проработку (1 ч — 3 000 ₽)'
+      }
+    };
+
+    function openMethodModal(key) {
+      const data = methodDetails[key];
+      if (!data) return;
+      document.getElementById('methodModalKicker').textContent = data.kicker;
+      document.getElementById('methodModalTitle').textContent = data.title;
+      document.getElementById('methodModalText').textContent = data.text;
+      document.getElementById('methodModalBookBtn').onclick = () => {
+        document.getElementById('methodDetailModal').close();
+        openQuickModal(data.service);
+      };
+      document.getElementById('methodDetailModal').showModal();
+    }
+  </script>
+</body>
+</html>
